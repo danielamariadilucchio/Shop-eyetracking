@@ -7,7 +7,7 @@ export const products: ProductType[] = [
     price: 99.99,
     description:
       "Cuffie wireless premium con cancellazione del rumore e 30 ore di autonomia. Perfette per gli amanti della musica e i viaggiatori.",
-    image: "/placeholder.svg?height=300&width=300&text=Cuffie",
+    image: "/products/Cuffie.jpeg",
     category: "electronics",
   },
   {
@@ -16,7 +16,7 @@ export const products: ProductType[] = [
     price: 699.99,
     description:
       "Ultimo smartphone con fotocamera ad alta risoluzione, processore veloce e batteria che dura tutto il giorno. Resta connesso con la migliore tecnologia.",
-    image: "/placeholder.svg?height=300&width=300&text=Smartphone",
+    image: "/products/smartphone.jpeg",
     category: "electronics",
   },
   {
@@ -25,7 +25,7 @@ export const products: ProductType[] = [
     price: 1299.99,
     description:
       "Potente laptop per lavoro e gaming con scheda grafica dedicata e processore ad alte prestazioni. Completa il tuo lavoro più velocemente.",
-    image: "/placeholder.svg?height=300&width=300&text=Laptop",
+    image: "/products/laptop.png",
     category: "electronics",
   },
   {
@@ -34,7 +34,7 @@ export const products: ProductType[] = [
     price: 249.99,
     description:
       "Tieni traccia della tua forma fisica e resta connesso con questo elegante smartwatch. Caratteristiche: monitoraggio della frequenza cardiaca, GPS e resistenza all'acqua.",
-    image: "/placeholder.svg?height=300&width=300&text=Smartwatch",
+    image: "/products/iWatch.jpeg",
     category: "electronics",
   },
   {
@@ -43,7 +43,7 @@ export const products: ProductType[] = [
     price: 129.99,
     description:
       "Auricolari compatti con qualità del suono straordinaria e cancellazione attiva del rumore. Leggeri e comodi per l'uso quotidiano.",
-    image: "/placeholder.svg?height=300&width=300&text=Auricolari",
+    image: "/products/auricolari.jpeg",
     category: "electronics",
   },
   {
@@ -52,7 +52,7 @@ export const products: ProductType[] = [
     price: 499.99,
     description:
       "Tablet portatile per intrattenimento e produttività con display ad alta risoluzione e lunga durata della batteria. Ottimo per leggere e guardare video.",
-    image: "/placeholder.svg?height=300&width=300&text=Tablet",
+    image: "/products/tablet.jpeg",
     category: "electronics",
   },
   {
@@ -60,7 +60,7 @@ export const products: ProductType[] = [
     name: "T-Shirt Uomo",
     price: 24.99,
     description: "Comoda t-shirt in cotone per uso quotidiano. Disponibile in più colori e taglie.",
-    image: "/placeholder.svg?height=300&width=300&text=T-Shirt",
+    image: "/products/tshirt.jpeg",
     category: "clothing",
   },
   {
@@ -69,7 +69,7 @@ export const products: ProductType[] = [
     price: 59.99,
     description:
       "Jeans in denim di alta qualità con vestibilità perfetta e comfort. Eleganti e durevoli per l'uso quotidiano.",
-    image: "/placeholder.svg?height=300&width=300&text=Jeans",
+    image: "/products/jeans.jpeg",
     category: "clothing",
   },
   {
@@ -78,7 +78,7 @@ export const products: ProductType[] = [
     price: 89.99,
     description:
       "Scarpe da corsa leggere e comode con eccellente supporto e ammortizzazione. Perfette per corridori di tutti i livelli.",
-    image: "/placeholder.svg?height=300&width=300&text=Scarpe",
+    image: "/products/scarpe.png",
     category: "clothing",
   },
   {
@@ -87,7 +87,7 @@ export const products: ProductType[] = [
     price: 149.99,
     description:
       "Giacca invernale calda e impermeabile per tenerti comodo con il freddo. Design elegante con tasche multiple.",
-    image: "/placeholder.svg?height=300&width=300&text=Giacca",
+    image: "/products/jacket.jpeg",
     category: "clothing",
   },
   {
@@ -96,7 +96,7 @@ export const products: ProductType[] = [
     price: 79.99,
     description:
       "Macchina per caffè programmabile con caraffa termica per mantenere il caffè caldo per ore. Perfetta per gli amanti del caffè.",
-    image: "/placeholder.svg?height=300&width=300&text=Caffè",
+    image: "/products/caffe.jpeg",
     category: "home",
   },
   {
@@ -105,7 +105,7 @@ export const products: ProductType[] = [
     price: 69.99,
     description:
       "Potente frullatore per frullati, zuppe e altro. Impostazioni di velocità multiple e facile da pulire.",
-    image: "/placeholder.svg?height=300&width=300&text=Frullatore",
+    image: "/products/frullatore.png",
     category: "home",
   },
   {
@@ -113,7 +113,7 @@ export const products: ProductType[] = [
     name: "Set Lenzuola",
     price: 89.99,
     description: "Set lenzuola morbido e confortevole con copripiumino e federe. Disponibile in più colori e fantasie.",
-    image: "/placeholder.svg?height=300&width=300&text=Lenzuola",
+    image: "/products/lenzuola.png",
     category: "home",
   },
   {
@@ -122,7 +122,7 @@ export const products: ProductType[] = [
     price: 129.99,
     description:
       "Altoparlante smart con controllo vocale e qualità audio premium. Controlla la tua casa intelligente e riproduci musica con facilità.",
-    image: "/placeholder.svg?height=300&width=300&text=Speaker",
+    image: "/products/alexa.png",
     category: "electronics",
   },
   {
@@ -131,7 +131,7 @@ export const products: ProductType[] = [
     price: 39.99,
     description:
       "Lampada da scrivania regolabile con più livelli di luminosità e temperature di colore. Perfetta per lavoro o lettura.",
-    image: "/placeholder.svg?height=300&width=300&text=Lampada",
+    image: "/products/lampada.png",
     category: "home",
   },
 ]

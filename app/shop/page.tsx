@@ -82,7 +82,7 @@ export default function ShopHome() {
             <Col md={6}>
               <div className="position-relative" style={{ height: "300px" }}>
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/homepage/homepage.png"
                   alt="Shopping"
                   fill
                   style={{ objectFit: "cover", borderRadius: "8px" }}
@@ -140,16 +140,14 @@ export default function ShopHome() {
             {
               name: "Elettronica",
               color: "#4158D0",
-              image: "/images/categories/elettronica.jpg",
               category: "electronics",
             },
             {
               name: "Abbigliamento",
               color: "#C850C0",
-              image: "/images/categories/abbigliamento.jpg",
               category: "clothing",
             },
-            { name: "Casa & Cucina", color: "#FFCC70", image: "/images/categories/casa-cucina.jpg", category: "home" },
+            { name: "Casa & Cucina", color: "#FFCC70", category: "home" },
           ].map((category, index) => (
             <Col key={index} md={4} className="mb-4">
               <Card
@@ -159,7 +157,7 @@ export default function ShopHome() {
               >
                 <div className="position-relative" style={{ height: "150px" }}>
                   <Image
-                    src={`/placeholder.svg?height=300&width=400&text=${category.name}`}
+                    src={`/category.jpeg?height=300&width=400&text=${category.name}`}
                     alt={category.name}
                     fill
                     style={{ objectFit: "cover" }}
