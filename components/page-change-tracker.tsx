@@ -1,12 +1,13 @@
 "use client"
-
-import { useEffect, useRef } from "react"
-import { usePathname, useSearchParams } from "next/navigation"
+import { useEffect, useRef, Suspense } from "react"
+import { usePathname } from "next/navigation"
 import { useEyeTracking } from "@/context/eye-tracking-context"
 
-export default function PageChangeTracker() {
-  const pathname = usePathname()
+// Componente che usa useSearchParams
+function PageChangeTrackerInner() {
+  const { useSearchParams } = require("next/navigation")
   const searchParams = useSearchParams()
+  const pathname = usePathname()
   const { isTracking, gazeData, exportHeatmapImage, exportGazeData, clearGazeData } = useEyeTracking()
   const previousPathRef = useRef<string | null>(null)
   const previousSearchParamsRef = useRef<string | null>(null)
@@ -71,3 +72,11 @@ export default function PageChangeTracker() {
   return null
 }
 
+// Componente principale con Suspense
+export default function PageChangeTracker() {
+  return (
+    <Suspense fallback={null}>
+      <PageChangeTrackerInner />
+    </Suspense>
+  )
+}

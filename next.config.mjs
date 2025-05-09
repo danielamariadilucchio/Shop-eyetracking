@@ -1,6 +1,5 @@
 let userConfig = undefined
 
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -17,6 +16,7 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  output: 'export',
 }
 
 if (userConfig) {
