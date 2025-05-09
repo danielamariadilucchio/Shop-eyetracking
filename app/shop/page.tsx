@@ -82,7 +82,7 @@ export default function ShopHome() {
             <Col md={6}>
               <div className="position-relative" style={{ height: "300px" }}>
                 <Image
-                  src="/homepage/homepage.png"
+                  src="/homepage/benvenuti.png"
                   alt="Shopping"
                   fill
                   style={{ objectFit: "cover", borderRadius: "8px" }}

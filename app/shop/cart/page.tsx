@@ -507,7 +507,7 @@ export default function CartPage() {
         }
         
         .form-check-input:checked + .form-check-label .shipping-option {
-          border-color: #0d6efd !important;
+          border-color:rgb(121, 13, 253) !important;
           background-color: rgba(13, 110, 253, 0.1);
         }
         

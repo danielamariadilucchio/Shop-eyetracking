@@ -896,11 +896,7 @@ export default function CheckoutPage() {
                 </Card>
 
                 <div className="d-flex justify-content-center">
-                  <img
-                    src="/placeholder.svg?height=60&width=300&text=Metodi+di+Pagamento"
-                    alt="Metodi di pagamento accettati"
-                    className="img-fluid"
-                  />
+                 
                 </div>
               </div>
             </Col>
@@ -935,8 +931,8 @@ export default function CheckoutPage() {
         }
         
         .step-circle.active {
-          background-color: #0d6efd;
-          border-color: #0d6efd;
+          background-color:rgb(153, 13, 253);
+          border-color:rgb(105, 13, 253);
           color: white;
         }
         
@@ -948,7 +944,7 @@ export default function CheckoutPage() {
         }
         
         .step-line.active {
-          background-color: #0d6efd;
+          background-color:rgb(145, 13, 253);
         }
         
         /* Stili per i campi del form */
@@ -959,8 +955,8 @@ export default function CheckoutPage() {
         }
         
         .form-field:focus {
-          border-color: #0d6efd;
-          box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+          border-color:rgb(117, 13, 253);
+          box-shadow: 0 0 0 0.25rem rgba(13, 17, 253, 0.25);
         }
         
         /* Stili per le opzioni di pagamento */
@@ -987,7 +983,7 @@ export default function CheckoutPage() {
         }
         
         .form-check-input:checked + .form-check-label .shipping-option {
-          border-color: #0d6efd !important;
+          border-color:rgb(113, 13, 253) !important;
           background-color: rgba(13, 110, 253, 0.1);
         }
         
@@ -1066,8 +1062,8 @@ export default function CheckoutPage() {
         
         /* Stili per i checkbox */
         .checkout-checkbox .form-check-input:checked {
-          background-color: #0d6efd;
-          border-color: #0d6efd;
+          background-color:rgb(221, 13, 253);
+          border-color:rgb(193, 13, 253);
         }
         
         /* Stili per la barra di progresso mobile */
